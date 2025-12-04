@@ -1,0 +1,28 @@
+{
+  "6-primorial": {
+    "modulus": 30030,
+    "phi_M": 5760,
+    "correlation": {
+      "pearson_r": -0.398228305904554,
+      "pearson_p": 0.004180785401838517,
+      "spearman_r": -0.3995118853798745,
+      "spearman_p": 0.004049600108529569
+    },
+    "total_zeros": 854,
+    "num_characters": 12,
+    "description": "Smaller primorial for faster computation"
+  },
+  "7-primorial": {
+    "modulus": 510510,
+    "phi_M": 92160,
+    "correlation": {
+      "pearson_r": -0.5935658999213054,
+      "pearson_p": 4.3046854689948556e-05,
+      "spearman_r": -0.39595054238790234,
+      "spearman_p": 0.010389137921390918
+    },
+    "total_zeros": 849,
+    "num_characters": 12,
+    "description": "Baseline modulus from main paper"
+  }
+}

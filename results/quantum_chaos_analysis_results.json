@@ -1,0 +1,98 @@
+{
+  "timestamp": "2025-12-04T06:12:30.727061",
+  "modulus": 510510,
+  "num_residues": 92160,
+  "resonant_modes": [
+    8,
+    12,
+    16,
+    34
+  ],
+  "hamiltonian": {
+    "method": "logarithmic",
+    "dimension": 92160,
+    "energy_range": [
+      0.0,
+      0.9999999999920236
+    ],
+    "mean_energy": 0.3970069358526897,
+    "std_energy": 0.462966391579724
+  },
+  "level_spacings": {
+    "num_spacings": 92159,
+    "mean": 1.0,
+    "std": 287.28189975568216,
+    "min": 0.0,
+    "max": 87063.73967395235
+  },
+  "gue_correspondence": {
+    "kolmogorov_smirnov": {
+      "KS_statistic_GUE": NaN,
+      "p_value_GUE": NaN,
+      "KS_statistic_Poisson": 0.9999782983756335,
+      "p_value_Poisson": 0.0,
+      "favors": "Poisson"
+    },
+    "level_spacing_ratio": {
+      "mean_ratio": 0.0,
+      "GUE_expected": 0.5307,
+      "Poisson_expected": 0.386,
+      "distance_to_GUE": 0.5307,
+      "distance_to_Poisson": 0.386,
+      "favors": "Poisson"
+    },
+    "jensen_shannon_divergence": {
+      "JS_GUE": NaN,
+      "JS_Poisson": NaN,
+      "favors": "Poisson"
+    },
+    "summary": {
+      "verdict": "Poisson",
+      "confidence": "0/3 tests favor Poisson"
+    }
+  },
+  "eigenstate_localization": {
+    "8": {
+      "num_residues": 3840,
+      "mean_density": 1.0880909120442565e-05,
+      "global_mean": 1.0850694444444447e-05,
+      "enhancement_factor": 1.0027753429624258,
+      "t_statistic": 0.20002915332510443,
+      "p_value": 0.8414582221551727,
+      "significant_at_0_001": false,
+      "interpretation": "EXTENDED"
+    },
+    "12": {
+      "num_residues": 3840,
+      "mean_density": 1.0801142375807531e-05,
+      "global_mean": 1.0850694444444447e-05,
+      "enhancement_factor": 0.995424107525847,
+      "t_statistic": -0.3280479317751241,
+      "p_value": 0.7428761670093684,
+      "significant_at_0_001": false,
+      "interpretation": "EXTENDED"
+    },
+    "16": {
+      "num_residues": 3840,
+      "mean_density": 1.090266368716121e-05,
+      "global_mean": 1.0850694444444447e-05,
+      "enhancement_factor": 1.00478022535422,
+      "t_statistic": 0.344050289986394,
+      "p_value": 0.7308092510598578,
+      "significant_at_0_001": false,
+      "interpretation": "EXTENDED"
+    },
+    "34": {
+      "num_residues": 3840,
+      "mean_density": 1.0880909120442565e-05,
+      "global_mean": 1.0850694444444447e-05,
+      "enhancement_factor": 1.0027753429624258,
+      "t_statistic": 0.20002915332510446,
+      "p_value": 0.8414582221551727,
+      "significant_at_0_001": false,
+      "interpretation": "EXTENDED"
+    }
+  },
+  "spectral_gap_correlation": null,
+  "visualization": "quantum_chaos_analysis.png"
+}

@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-04T06:12:30.698231",
+    "modulus": 510510,
+    "primorial": "7-primorial",
+    "num_residues": 92160,
+    "training_size": 1500000,
+    "ratio_T_phi": 16.276041666666668
+  },
+  "grh_bound": {
+    "constant": 0.7325276950079324,
+    "bound_value": 0.0021683451242361443,
+    "formula": "C_GRH * sqrt(log(M) / T)"
+  },
+  "siegel_walfisz": {
+    "constant": 4.991004155210955,
+    "bound_value": 0.004075137828125819
+  },
+  "theoretical_maximum": {
+    "speedup_percent": 33.33333027403458
+  }
+}
